@@ -1,0 +1,8 @@
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  const initialValue = 0;
+  const arrayForReduce= [laLigaGoals, copaDelReyGoals, championsLeagueGoals]
+  const SUmOfAll = arrayForReduce.reduce((previousValue , currentValue) => previousValue + currentValue,
+  initialValue
+
+);
+return SUmOfAll;} 
