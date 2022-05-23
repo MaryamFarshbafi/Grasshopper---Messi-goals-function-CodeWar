@@ -1,0 +1,15 @@
+function findNextSquare(sq) {
+  // Return the next square if sq is a perfect square, -1 otherwise
+ let  a= 1;
+  let z;
+  while(Math.pow(a,2) !== sq){
+    
+    if(Math.pow(a,2 )> sq){
+      return -1;
+
+    }
+    a++
+  }
+  z= Math.pow(a+1,2);
+  return z;
+  }
